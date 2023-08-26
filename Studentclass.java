@@ -54,16 +54,7 @@ BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 System.out.println("Enter no. of Student:");
 int n=Integer.parseInt(br.readLine());
 Student p[]=new Student[n];
-for(int i=0;i<n;i++)
-{
-System.out.print("Enter Name:");
-String name=br.readLine();
-System.out.print("Enter percentage:");
-float per=Float.parseFloat(br.readLine());
 
-p[i]=new Student(name,per);
-p[i].counter();
-}
 Student.sortStudent(p,Student.count);
 }
 }
