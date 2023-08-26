@@ -13,3 +13,4 @@ print(data.head(50))
 
 y = pd.get_dummies(data.Species, prefix='Species')
 print(y.head(50))
+print(y.head(10))
